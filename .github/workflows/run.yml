@@ -35,5 +35,4 @@ jobs:
           port: ${{ secrets.WM1_PORT }}
           username: ${{ secrets.WM1_USERNAME }}
           key: ${{ secrets.WM1_KEY }}
-          command_timeout: 120m
           script: ./azure-d/run.sh
